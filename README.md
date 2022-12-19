@@ -1,28 +1,14 @@
-Retail Mart Management.
-DESCRIPTION
+# Objective:
 
-A data analyst of a retail shop, Happy Mart, wants to store the product details, the customer details, and the order details to provide unparalleled insights about customer behavior and product stock details daily.
+# The design of the database helps to easily retrieve thousands of student records.
 
-Objective:
+# Task to be performed:
 
-The design of the database helps to easily evaluate and identify the performance of the shop to increase the daily sales.
-
-Task to be performed:
-
-Write a query to create a database named SQL basics.
-Write a query to select the database SQL basics.
-Write a query to create a product table with fields as product code, product name, price, stock and category, customer table with the fields as customer id, customer name, customer location, and customer phone number and, sales table with the fields as date, order number, product code, product name, quantity, and price.
-Write a query to insert values into the tables.
-Write a query to add two new columns such as S_no and categories to the sales table.
-Write a query to change the column type of stock in the product table to varchar.
-Write a query to change the table name from customer-to-customer details.
-Write a query to drop the columns S_no and categories from the sales table.
-Write a query to display order id, customer id, order date, price, and quantity from the sales table.
-Write a query to display all the details in the product table if the category is stationary.
-Write a query to display a unique category from the product table.
-Write a query to display the sales details if quantity is greater than 2 and price is lesser than 500 from the sales table.
-Write a query to display the customer’s name if the name ends with a.
-Write a query to display the product details in descending order of the price.
-Write a query to display the product code and category from similar categories that are greater than or equal to 2.
-Write a query to display the order number and the customer name to combine the results of the order and the customer tables including duplicate rows.
-
+1# Write a query to create a students table with appropriate data types for student id, student first name, student last name, class, and age where the student last name, student first name, and student id should be a NOT NULL constraint, and the student id should be in a primary key.
+2# Write a query to create a marksheet table that includes score, year, ranking, class, and student id.
+3# Write a query to insert values in students and marksheet tables.
+4# Write a query to display student id and student first name from the student table if the age is greater than or equal to 16 and the student's last name is Kumar.
+5# Write a query to display all the details from the marksheet table if the score is between 800 and 1000.
+6# Write a query to display the marksheet details from the marksheet table by adding 5 to the score and by naming the column as new score.
+7# Write a query to display the marksheet table in descending order of the  score.
+8# Write a query to display details of the students whose first name starts with a.
